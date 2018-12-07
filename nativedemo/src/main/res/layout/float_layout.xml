@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/float_layout"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_gravity="right|bottom"
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="1" />
+                <com.aispeech.dui.dds.demo.widget.InputField_
+
+                    android:id="@+id/input_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:paddingTop="100dp"
+                    android:id="@+id/tv"
+                    android:gravity="center"
+                    android:text=" "
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+</LinearLayout>
